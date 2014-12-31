@@ -1,0 +1,23 @@
+input,textarea, button{
+	outline: none;
+	/*pour les utilisateurs du iphone ca permet de forcer l'arrondissement, et d'eviter un look des bouton qui ont de dégradé */
+	-webkit-apparence:none;
+	border-radius: 0;
+}
+.form-input{
+	display: block;
+	margin: 0 0 10px 0;
+	padding: 0 30px;
+	border: 2px solid #d9d9d9;
+	height: 45px;
+	width: 100%;
+	&:focus{
+		border-color:$color;
+	}
+}
+.form-textarea{
+	@extend .form-input;
+		height: 125px;
+		padding: 15px 20px;
+
+}

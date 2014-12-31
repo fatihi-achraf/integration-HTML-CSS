@@ -1,0 +1,27 @@
+.contact-form{
+	width: 620px;
+	float: left;
+}
+.contact-info{
+	float: right;
+	width: 490px;
+}
+.contact-list{
+	margin: 0;
+	padding: 0;
+	color: #0d0d0d;
+	line-height: 43px;
+	li{
+		list-style: none;
+	}
+	.icone{
+		width: 33px;
+		height: 33px;
+		line-height: 28px;
+		display: inline-block;
+		text-align: center;
+		border-radius: 33px;
+		border: 2px solid $color;
+		margin-right: 20px;
+	}
+}
